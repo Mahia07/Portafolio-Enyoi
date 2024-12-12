@@ -141,7 +141,6 @@ a {
     box-shadow: 0 4px 15px var(--colorShadow); 
     border-radius: 10px;
     padding: 20px;
-    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 
@@ -269,7 +268,6 @@ section p {
     color: var(--colorText);
     background-color: var(--primaryColor); 
     outline: none;
-    transition: border-color 0.3s ease, background-color 0.3s ease;
 }
 
 .formGroup {
@@ -294,7 +292,6 @@ section p {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 @media (max-width: 768px) {
