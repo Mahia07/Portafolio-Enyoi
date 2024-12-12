@@ -17,11 +17,11 @@ function renderNavBar() {
 
 
         if (element.toLocaleLowerCase() == "inicio") {  
-            links.href = "../index/index.html"
+            links.href = "index.html"
           } else if (element.toLocaleLowerCase() == 'sobre mi') { 
-             links.href ="../sobremi/sobremi.html"
+             links.href ="sobremi.html"
           } else {
-            links.href = `../${element}/${element}.html`
+            links.href = `${element}.html`
           }
 
         navBar.appendChild(links);
