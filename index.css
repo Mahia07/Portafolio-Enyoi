@@ -369,6 +369,7 @@ footer {
     text-align: start;
     padding: 1rem;
     flex-grow: 1; 
+    margin-top: 1rem;
 }
 
 .redesSociales {
@@ -379,6 +380,7 @@ footer {
 }
 .icons{
     cursor: pointer;
+    margin-top: 2rem;
 }
 
 @media (min-width: 768px) {
